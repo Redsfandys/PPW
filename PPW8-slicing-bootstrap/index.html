@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Kembang Ratnasari</title>
+    <link href="bootstrap/css/bootstrap.min.css"rel="stylesheet"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="tokoKembang.jpg" alt="Logo" class="logo" style="height: 3rem; border-radius: 20px; background-color: #d291bc;">
+                </a>
+
+                <!-- Toggler button for mobile view -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Produk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cek Keranjang</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tentang Kami</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <h1 class="mb-4">Toko Kembang Ratnasari</h1>
+                        <p class="lead mb-3" style="background-color: #FADADD; color: #8D6A5C; padding: 0.25rem 0.75rem; border-radius: 50px;">
+                            melayani pesanan bunga untuk daerah istimewa Jogjakarta dan sekitarnya
+                        </p>
+                        <p class="lead mb-5" style="background-color: #FADADD; color: #8D6A5C; padding: 0.25rem 0.75rem; border-radius: 50px;">
+                            menawarkan pembuatan, dan penyewaan karangan bunga sesuai kebutuhan dan pesanan
+                        </p>
+                        <button class="cta-button btn btn-lg btn-primary rounded-pill">Pesan Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="review">
+            <div class="rating">
+                <span>4.2</span>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <span>Google Review</span>
+        </section>
+
+        <section class="who-are-we">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Text Column -->
+                    <div class="col-md-6 text-end">
+                        <h1>Who are we?</h1>
+                        <p class="mt-3" style="background-color: #FADADD; padding: 0.625rem 1.25rem; border-radius: 50px;">
+                            Kami adalah toko bunga di Jogjakarta
+                        </p>
+                        <p class="mt-3" style="background-color: #FADADD; padding: 0.625rem 1.25rem; border-radius: 20px;">
+                            Kami menawarkan pembuatan,
+                        </p>
+                        <p class="mt-3" style="background-color: #FADADD; padding: 0.625rem 1.25rem; border-radius: 20px;">
+                            dan penyewaan karangan bunga
+                        </p>
+                    </div>
+        
+                    <!-- Image Column -->
+                    <div class="col-md-6">
+                        <img src="bunga.jpg" alt="Photo" class="img-fluid rounded" style="max-width: 18.75rem;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h1 class="text-center mb-4">Products</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- Product Item -->
+                    <div class="col">
+                        <div class="product-item card h-100">
+                            <img src="bungaPapan.jpeg" alt="Bunga Papan" class="card-img-top rounded" style="max-height: 14.5rem; object-fit: cover;">
+                            <div class="card-body">
+                                <h4 class="card-title">Bunga Papan</h4>
+                                <p class="card-text">Kami menyediakan berbagai macam papan bunga (flower board) untuk Anda</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Item -->
+                    <div class="col">
+                        <div class="product-item card h-100">
+                            <img src="handBouquet.jpg" alt="Hand Bouquet" class="card-img-top rounded" style="max-height: 14.5rem; object-fit: cover;">
+                            <div class="card-body">
+                                <h4 class="card-title">Hand Bouquet</h4>
+                                <p class="card-text">Rangkaian bunga yang dapat menjadi pilihan untuk dihadiahkan kepada pasangan, keluarga, teman maupun yang lainnya</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Item -->
+                    <div class="col">
+                        <div class="product-item card h-100">
+                            <img src="tableBouquet.jpg" alt="Table Bouquet" class="card-img-top rounded" style="max-height: 14.5rem; object-fit: cover;">
+                            <div class="card-body">
+                                <h4 class="card-title">Table Bouquet</h4>
+                                <p class="card-text">Rangkaian bunga cantik nan indah tidak hanya dalam bentuk buket bunga, namun juga bunga meja</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Item -->
+                    <div class="col">
+                        <div class="product-item card h-100">
+                            <img src="dekorasi.jpg" alt="Dekorasi" class="card-img-top rounded" style="max-height: 14.5rem; object-fit: cover;">
+                            <div class="card-body">
+                                <h4 class="card-title">Dekorasi</h4>
+                                <p class="card-text">Menbuat suasana ruangan resepsi semakin indah dan astri.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Item -->
+                    <div class="col">
+                        <div class="product-item card h-100">
+                            <img src="riasMobil.jpg" alt="Rias Mobil" class="card-img-top rounded" style="max-height: 14.5rem; object-fit: cover;">
+                            <div class="card-body">
+                                <h4 class="card-title">Rias Mobil</h4>
+                                <p class="card-text">mobil mempelai akan memiliki memori tersendiri bagaimana keseruan momen Anda saat menikah bersama pasangan Anda.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Item -->
+                    <div class="col">
+                        <div class="product-item card h-100">
+                            <img src="krans.jpg" alt="Krans" class="card-img-top rounded" style="max-height: 14.5rem; object-fit: scale-down;">
+                            <div class="card-body">
+                                <h4 class="card-title">Krans</h4>
+                                <p class="card-text">Cocok untuk ucapan Duka cita Bunga terbuat dari kertas dan Penyangga kayu, tapi terkesan besar dan kokoh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h1 class="text-center mb-4">Customer Testimonials</h1>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <!-- Testimonial Item -->
+                    <div class="col">
+                        <div class="testimonial-item card h-100 bg-light rounded">
+                            <img src="widi.png" alt="Widi nurul" class="card-img-top rounded-circle mx-auto d-block" style="max-width: 6.25rem; height: auto;">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Widi nurul</h4>
+                                <p class="card-text">Adminnya fast respon, pelayanannya ramah dan komunikatif</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Testimonial Item -->
+                    <div class="col">
+                        <div class="testimonial-item card h-100 bg-light rounded">
+                            <img src="Richmond.png" alt="Richmond Zakaria" class="card-img-top rounded-circle mx-auto d-block" style="max-width: 6.25rem; height: auto;">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Richmond Zakaria</h4>
+                                <p class="card-text">Mau buat rangkaian bunga yg dinginkan, Bisa ngikutin budget juga bisa</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Testimonial Item -->
+                    <div class="col">
+                        <div class="testimonial-item card h-100 bg-light rounded">
+                            <img src="Sofian.png" alt="Sofian D." class="card-img-top rounded-circle mx-auto d-block" style="max-width: 6.25rem; height: auto;">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Sofian D.</h4>
+                                <p class="card-text">Banyak pilihan bunga yang segar</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Testimonial Item -->
+                    <div class="col">
+                        <div class="testimonial-item card h-100 bg-light rounded">
+                            <img src="Hanum.png" alt="Hanum S." class="card-img-top rounded-circle mx-auto d-block" style="max-width: 6.25rem; height: auto;">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Hanum S.</h4>
+                                <p class="card-text">Cepet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="container">
+                <h1 class="text-center mb-4">Frequently Asked Questions</h1>
+                <div class="accordion" id="faqAccordion">
+                    <!-- FAQ Item -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="heading1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                Q: Bisakah saya memesan rangkaian bunga khusus?
+                            </button>
+                        </h4>
+                        <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                A: Bisa, Kami menawarkan layanan pembuatan rangkaian bunga khusus sesuai kebutuhan.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="heading2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                Q: Bagaimana proses pengiriman bunga?
+                            </button>
+                        </h4>
+                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                A: Setelah Anda melakukan pesanan, bunga akan dikemas dengan hati-hati dan mengirimkannya menggunakan jasa pengiriman terpercaya.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="heading3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                Q: Berapa lama waktu pengiriman bunga?
+                            </button>
+                        </h4>
+                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                A: Waktu pengiriman biasanya memerlukan 1-2 hari kerja, tergantung pada lokasi tujuan. Untuk wilayah Yogyakarta, pengiriman bisa lebih cepat.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="heading4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                Q: Metode pembayaran apa yang diterima?
+                            </button>
+                        </h4>
+                        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                A: Kami menerima berbagai metode pembayaran, termasuk kartu kredit, transfer bank, dan e-wallet. Silakan pilih metode pembayaran yang sesuai.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item -->
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="heading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                Q: Bagaimana cara memesan bunga secara online?
+                            </button>
+                        </h4>
+                        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                A: Anda bisa memesan bunga secara online dengan mengunjungi situs web kami, memilih produk yang diinginkan, dan mengikuti petunjuk pemesanan. Anda juga bisa menghubungi kami melalui telepon atau email untuk mendapatkan bantuan.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="another">
+            <div class="container">
+                <h1 class="text-center mb-4">Pilihan Utama Bunga Segar di Jogjakarta!</h1>
+                <div class="row align-items-center justify-content-center">
+                    <!-- Paragraf -->
+                    <div class="col-md-6 text-end">
+                        <p>Kami melayani pesanan bunga untuk daerah istimewa Jogjakarta dan sekitarnya dan kami juga melayani partai besar maupun kecil sesuai kebutuhan anda.</p>
+                    </div>
+        
+                    <!-- Tombol CTA -->
+                    <div class="col-md-6 text-start">
+                        <button class="cta-button btn btn-lg btn-primary rounded-pill w-50">Pesan Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-container bg-light rounded p-3 mb-3">
+                <div class="row">
+                    <!-- About Us -->
+                    <div class="col-md-4">
+                        <h4>About Us</h4>
+                        <p>menawarkan pembuatan, dan penyewaan karangan bunga sesuai kebutuhan dan pesanan anda</p>
+                    </div>
+    
+                    <!-- Contact Information -->
+                    <div class="col-md-4">
+                        <h4>Contact Information</h4>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-envelope me-2"></i> <a href="mailto:florist@example.com">florist@yahoo.com</a></li>
+                            <li><i class="fas fa-phone me-2"></i> (0274) 564234 / (0274) 822 7272</li>
+                            <li><i class="fas fa-map-marker-alt me-2"></i> Jl. Achmad Jazuli No 67 Kotabaru Jogjakarta</li>
+                        </ul>
+                    </div>
+    
+                    <!-- Legal Pages -->
+                    <div class="col-md-4">
+                        <h4>Legal Pages</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Terms of use</a></li>
+                            <li><a href="#">Disclaimer</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Copyright -->
+            <p class="text-center text-muted">© 2023 Toko Kembang Ratnasari</p>
+        </div>
+    </footer>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- custom JS -->
+    <script src="custom.js"></script>
+</body>
+</html>
