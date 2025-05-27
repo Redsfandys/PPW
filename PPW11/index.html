@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Kalkulator JavaScript</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                height: 100vh;
+            }
+            .container {
+                text-align: center;
+                background-color: white;
+                padding: 20px;
+                border-radius: 10px;
+                width: 400px;
+            }
+            h1 {
+                color: black;
+                margin-bottom: 20px;
+            }
+            button {
+                padding: 10px 20px;
+                margin: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                background-color: red;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                transition: background-color 0.2s;
+            }
+            button:hover {
+                background-color: red;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 10px;
+                text-align: center;
+            }
+            th {
+                background-color: white;
+            }
+            input[type="number"] {
+                width: 100%;
+                padding: 5px;
+                font-size: 16px;
+                box-sizing: border-box;
+            }
+            #hasil {
+                font-weight: bold;
+                font-size: 18px;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Kalkulator Sederhana</h1>
+            
+            <!-- Tombol Operator -->
+            <div class="buttons">
+                <button onclick="tambah()">+</button>
+                <button onclick="kurang()">-</button>
+                <button onclick="kali()">x</button>
+                <button onclick="bagi()">/</button>
+            </div>
+            
+            <!-- Tabel Hasil -->
+            <table id="hasilTable">
+                <thead>
+                    <tr>
+                        <th colspan="2" id="operasiHeader">Hasil Operasi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bilangan 1</td>
+                        <td><input type="number" id="bilangan1" value="0"></td>
+        </tr>
+        <tr>
+            <td>Bilangan 2</td>
+            <td><input type="number" id="bilangan2" value="0"></td>
+            </tr>
+            <tr>
+                <td>Hasil</td>
+                <td id="hasil">15</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <script src="scripts.js"></script>
+    </body>
+</html>
+
